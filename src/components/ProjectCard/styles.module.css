@@ -1,0 +1,60 @@
+.card {
+  width: 50%;
+  height: 150px;
+  border-radius: 16px;
+  padding: 24px;
+  background-color: #302F3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectTitleDiv {
+  display: flex;
+  gap: 16px;
+  font-size: 0.7rem;
+}
+
+.subtitle {
+  font-size: 0.7rem;
+}
+
+.statsDiv {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.javascriptCircle {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.folderIcon {
+  width: 20px;
+}
+
+.statsIcon {
+  width: 15px;
+}
+
+.footerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.technology {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
