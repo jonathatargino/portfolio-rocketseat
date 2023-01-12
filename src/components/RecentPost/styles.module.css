@@ -1,0 +1,43 @@
+.card {
+  background-color: #302F3D;
+  padding: 24px;
+  border-radius: 16px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profilePic {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
+.postedTime {
+  font-size: 0.9rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.hashtags {
+  font-size: 0.9rem;
+}
+
+.header, .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
