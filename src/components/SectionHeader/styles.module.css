@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  height: 50px;
+  border-radius: 16px;
+  padding: 24px;
+  background-color: #302F3D;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 15px;
+  left: 24px;
+  font-size: 1.2rem;
+}
+
+.rightButton {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  font-size: 0.8rem;
+}
