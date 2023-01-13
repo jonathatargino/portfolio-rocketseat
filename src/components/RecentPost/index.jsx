@@ -8,7 +8,7 @@ function RecentPost({title, postedTime, subtitle, hashtags}){
       <div className={styles.postInfo}>
         <div className={styles.header}>
           <h2 className={styles.title}>{title}</h2>
-          <span className={styles.postedTime}>{postedTime} ano(s) atrás</span>
+          <span className={styles.postedTime}>{postedTime} semana(s) atrás</span>
         </div>
         <div className={styles.footer}>
           <span className={styles.subtitle}>{subtitle}</span>
