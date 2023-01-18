@@ -10,3 +10,21 @@
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+
+@media (max-width: 1024px){
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px){
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px){
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
