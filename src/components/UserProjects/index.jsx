@@ -24,6 +24,7 @@ function UserProjects(){
           technology="Javascript"
         />
       </div>
+      <SectionHeader title="Recent Posts"/>
       <RecentPost
         title="jonathatargino"
         subtitle="apresentação"
