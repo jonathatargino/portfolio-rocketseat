@@ -5,7 +5,11 @@ function SectionHeader({title, rightButtonName}){
     <div className={styles.header}>
       <h1 className={styles.title}>{title}</h1>
       {
-      rightButtonName? <span className={styles.rightButton}>{rightButtonName}</span> : ""
+      rightButtonName? 
+      <a 
+        className={styles.rightButton} 
+        href="https://github.com/jonathatargino?tab=repositories">{rightButtonName}
+      </a> : ""
       }
     </div>
   )

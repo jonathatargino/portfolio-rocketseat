@@ -1,9 +1,9 @@
 import profilePic from "../../assets/profile-pic.png"
 import styles from "./styles.module.css"
 
-function RecentPost({title, postedTime, subtitle, hashtags}){
+function RecentPost({href, title, postedTime, subtitle, hashtags}){
   return (
-    <div className={styles.card}>
+    <a className={styles.card} href={href}>
       <img className={styles.profilePic} src={profilePic}/>
       <div className={styles.postInfo}>
         <div className={styles.header}>
@@ -18,7 +18,7 @@ function RecentPost({title, postedTime, subtitle, hashtags}){
         </div>
       </div>
 
-    </div>
+    </a>
   )
 }
 

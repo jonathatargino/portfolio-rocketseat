@@ -12,37 +12,50 @@ function UserInfo(){
   return(
     <div className={styles.card}>
       <ul className={styles.infoList}>
-        <li className={styles.info}>
-          <img src={mapPin} className={styles.svg}/>
-          Brasil
+        <li>
+          <a className={styles.info} href="#">
+            <img src={mapPin} className={styles.svg}/>
+            <span>Brasil</span>
+          </a>
         </li>
-        <li className={styles.info}>
-        <img src={briefcase} className={styles.svg}/>
-          Desempregado
+        <li>
+          <a className={styles.info} href="#">
+            <img src={briefcase} className={styles.svg}/>
+            <span>Desempregado</span>
+          </a>
         </li>
-        <li className={styles.info}>
-          <img src={github} className={styles.svg}/>
-          jonathatargino  
+        <li>
+          <a className={styles.info} href="https://github.com/jonathatargino">
+            <img src={github} className={styles.svg}/>
+            <span>jonathatargino</span>
+          </a>
         </li>
- 
-        <li className={styles.info}>
-          <img src={linkedin} className={styles.svg}/>
-          jonathatargino  
+        <li>
+          <a className={styles.info} href="https://linkedin/in/jonathatargino">
+            <img src={linkedin} className={styles.svg}/>
+            <span>jonathatargino</span>
+          </a>
         </li>
         
-        <li className={styles.info}>
-          <img src={twitter} className={styles.svg}/>
-          jonathatargino
+        <li>
+          <a className={styles.info} href="#">
+            <img src={twitter} className={styles.svg}/>
+            <span>jonathatargino</span>
+          </a>
         </li>
-        <li className={styles.info}>
-          <img src={globe} className={styles.svg}/>
-          N/A
+        <li>
+          <a className={styles.info} href="#">
+            <img src={globe} className={styles.svg}/>
+            <span>N/A</span>
+          </a>
         </li>
   
-      <li className={styles.info}>
-          <img src={mail} className={styles.svg}/>
-          j.oliveiratargino@hotmail.com
-      </li>
+        <li>
+          <a className={styles.info} href="#">
+            <img src={mail} className={styles.svg}/>
+            <span>j.oliveiratargino@hotmail.com</span>
+          </a>
+        </li>
    
      </ul>
     </div>

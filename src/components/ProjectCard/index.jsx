@@ -4,9 +4,9 @@ import folder from "../../assets/folder.svg"
 import star from "../../assets/star.svg"
 import gitBranch from "../../assets/git-branch.svg"
 
-function ProjectCard({title, subtitle, stars, branchs, technology}){
+function ProjectCard({href, title, subtitle, stars, branchs, technology}){
   return (
-    <div className={styles.card}>
+    <a className={styles.card} href={href}>
       <div className={styles.projectTitleDiv}>
         <img className={styles.folderIcon} src={folder}/>
         <h2>{title}</h2>
@@ -30,7 +30,7 @@ function ProjectCard({title, subtitle, stars, branchs, technology}){
           <span>{technology}</span>
         </div>
       </div>
-    </div>
+    </a>
   )
 }
 

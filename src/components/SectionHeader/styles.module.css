@@ -21,3 +21,7 @@
   right: 24px;
   font-size: 0.8rem;
 }
+
+.rightButton:hover {
+  color: black;
+}

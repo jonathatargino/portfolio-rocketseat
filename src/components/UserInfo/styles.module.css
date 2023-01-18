@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   font-size: 0.8rem;
 }
 
@@ -26,7 +26,12 @@
 
 .info {
   display: flex;
+  padding: 8px;
   gap: 8px;
+  border-radius: 16px;
+}
+.info:hover {
+  background: rgba(0,0,0,0.1);
 }
 
 @media (max-width: 768px){
